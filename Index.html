@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SHOVEL - Shovel SOL</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <!-- PF Logo with placeholder link -->
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <img src="PF Logo.png" alt="PF LOGO" />
+        </a>
+        <!-- X logo linking to X -->
+        <a href="https://x.com/ShovelS0L" target="_blank" rel="noopener noreferrer">
+          <img src="Xlogo.png" alt="SHOVEL X Logo" />
+        </a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#gallery">GALLERY</a></li>
+        <li><a href="#partnerships">PARTNERSHIPS</a></li>
+        <li><a href="#how-to-buy">HOW TO BUY</a></li>
+        <!-- Removed Quote link -->
+        <li><a href="#how-to-buy" class="cta-button">BUY $SHOVEL</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section: 3 columns -->
+  <section class="hero">
+    <img src="shovel, no background.png" alt="Shovel Left" class="shovel-img" />
+    <div class="hero-text">
+      <div class="hero-center">
+        <h1>SHOVEL SOLANA</h1>
+        <a href="#how-to-buy" class="hero-cta">$SHOVEL</a>
+      </div>
+      <p class="hero-bottom">THE ONLY TOOL THAT CAN DIG YOU OUT</p>
+    </div>
+    <img src="Shovel Flip, no background.png" alt="Shovel Right" class="shovel-img" />
+  </section>
+
+  <!-- Contract Address Section -->
+  <section class="contract-section fade-in-section">
+    <h2>CONTRACT ADDRESS</h2>
+    <div class="ca-bar-container">
+      <div class="ca-bar">
+        <div class="ca-label">CA:</div>
+        <div class="ca-address" id="coinAddress">
+          Gp8xghyH7rAeE7T2KSmFsko444wqPr5ldJSg2fiqPN
+        </div>
+        <button class="copy-ca-button" id="copyCA">
+          <img src="copy icon.png" alt="Copy Icon" />
+          <span class="tooltip" id="copyTooltip">Copied!</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <br>
+
+  <!-- Main Content -->
+  <main>
+    <!-- About Section -->
+    <section id="about" class="info-section fade-in-section">
+      <h2>ABOUT $SHOVEL</h2>
+      <p>$SHOVEL coin was created on the Solana Network to give people the tool they need.
+      <br><br>
+         For too long, trenchers have been subjected to digging with tools no better than a teaspoon. 
+         $SHOVEL offers a new and improved tool to dig through this volatile horizon. 
+         A $SHOVEL is defined by the strong hands that hold it.
+      <br><br>
+         So come on, grab a $SHOVEL, and dig up your riches!
+      </p>
+    </section>
+
+    <br>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="info-section fade-in-section">
+      <h2>SHOVEL GALLERY</h2>
+      <p>The Art of Shoveling!</p>
+      <div class="meme-grid">
+        <img src="shovel.png" alt="Placeholder Image" />
+        <img src="shovel.png" alt="Placeholder Image" />
+        <img src="shovel.png" alt="Placeholder Image" />
+      </div>
+    </section>
+
+    <br>
+
+    <!-- Partnerships Section -->
+    <section id="partnerships" class="info-section">
+      <h2>PARTNERSHIPS</h2>
+      <div class="partnership-images-container">
+        <!-- Left image: fades in first -->
+        <img src="Digger Invert.png" alt="Digger Invert Left" class="partnership-image fade-in-section" style="transition-delay: 0s;" />
+        <!-- Middle image: fades in next -->
+        <img src="Digger Invert.png" alt="Digger Invert Center" class="partnership-image fade-in-section" style="transition-delay: 0.4s;" />
+        <!-- Right image: fades in last -->
+        <img src="Digger Invert.png" alt="Digger Invert Right" class="partnership-image fade-in-section" style="transition-delay: 0.8s;" />
+      </div>
+      <!-- Paragraph fades in after the images -->
+      <p class="fade-in-section" style="transition-delay: 1.2s;">
+        Our innovative alliances drive our mission. 
+        We aim to collaborate with industry leaders and experts to unlock new opportunities and shape the future of decentralized tools. 
+        <br>Join us as we forge partnerships that empower our community.
+      </p>
+    </section>
+
+    <br><br>
+
+    <!-- How to Buy Section -->
+    <section id="how-to-buy" class="info-section fade-in-section">
+      <h2>HOW TO BUY</h2>
+      <div class="steps-container">
+        <div class="step">
+          <h3>CREATE WALLET</h3>
+          <p>Download a Solana wallet like Phantom or Solflare and secure your seed phrase.</p>
+          <a href="https://phantom.com/" class="step-button" target="_blank" rel="noopener noreferrer">GET PHANTOM</a>
+        </div>
+        <div class="step">
+          <h3>BUY SOLANA</h3>
+          <p>Purchase SOL from a reputable exchange and transfer it to your wallet.</p>
+          <a href="https://phantom.com/" class="step-button" target="_blank" rel="noopener noreferrer">BUY SOL</a>
+        </div>
+        <div class="step">
+          <h3>CONNECT TO DEX</h3>
+          <p>Visit the provided link and connect your wallet.</p>
+          <a href="https://neo.bullx.io/" class="step-button" target="_blank" rel="noopener noreferrer">CONNECT NOW</a>
+        </div>
+        <div class="step">
+          <h3>SWAP FOR $SHOVEL</h3>
+          <p>Enter the token’s contract address and swap your SOL for $SHOVEL tokens!</p>
+          <a href="https://neo.bullx.io/" class="step-button" target="_blank" rel="noopener noreferrer">BUY $SHOVEL</a>
+        </div>
+      </div>
+    </section>
+
+    <br>
+
+    <!-- Quote Section -->
+    <section id="quote" class="quote-section fade-in-section">
+      <h2>Do you shovel to survive, or survive to shovel?</h2>
+      <p class="author">- Kōbō Abe</p>
+    </section>
+    <br><br>
+  </main>
+
+  <!-- Footer with moving marquee effect -->
+  <footer>
+    <div class="moving-footer">
+      <p>
+        GET YOUR $SHOVEL, WE'RE GOING DIGGING!
+        <img src="Shovel invert, no background.png" alt="Separator" class="footer-shovel" />
+        $SHOVEL
+        <img src="shovel invert, no background.png" alt="Separator" class="footer-shovel" />
+        SHOVEL SOLANA FUELS YOUR RISE!
+        <img src="shovel invert, no background.png" alt="Separator" class="footer-shovel" />
+        $SHOVEL
+        <img src="shovel invert, no background.png" alt="Separator" class="footer-shovel" />
+        CAN YOU DIG IT?!
+        <img src="shovel invert, no background.png" alt="Separator" class="footer-shovel" />
+        $SHOVEL
+        <img src="shovel invert, no background.png" alt="Separator" class="footer-shovel" />
+        BREAK THROUGH THE TRENCHES WITH $SHOVEL!
+        <img src="shovel invert, no background.png" alt="Separator" class="footer-shovel" />
+        $SHOVEL
+        <img src="shovel invert, no background.png" alt="Separator" class="footer-shovel" />
+        UNEARTH YOUR FORTUNE WITH SHOVEL SOLANA!
+        <img src="Shovel invert, no background.png" alt="Separator" class="footer-shovel" />
+      </p>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button id="backToTop">↑ Top</button>
+
+  <!-- Scripts -->
+  <script>
+    // Duplicate the footer text for continuous marquee effect
+    const movingFooter = document.querySelector('.moving-footer p');
+    movingFooter.innerHTML += movingFooter.innerHTML;
+
+    // IntersectionObserver for fade-in sections
+    const faders = document.querySelectorAll('.fade-in-section');
+    const appearOptions = { threshold: 0.2 };
+    const appearOnScroll = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, appearOptions);
+
+    faders.forEach(fader => {
+      appearOnScroll.observe(fader);
+    });
+
+    // Copy contract address functionality with tooltip
+    const copyButton = document.getElementById('copyCA');
+    const copyTooltip = document.getElementById('copyTooltip');
+    copyButton.addEventListener('click', () => {
+      const address = document.getElementById('coinAddress').textContent.trim();
+      navigator.clipboard.writeText(address).then(() => {
+        copyTooltip.classList.add('visible');
+        setTimeout(() => {
+          copyTooltip.classList.remove('visible');
+        }, 1500);
+      });
+    });
+
+    // Back to Top button functionality
+    const backToTopBtn = document.getElementById('backToTop');
+    window.addEventListener('scroll', () => {
+      if (window.pageYOffset > 300) {
+        backToTopBtn.classList.add('show');
+      } else {
+        backToTopBtn.classList.remove('show');
+      }
+    });
+    backToTopBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    // Smooth scroll for internal anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+      });
+    });
+  </script>
+</body>
+</html>
